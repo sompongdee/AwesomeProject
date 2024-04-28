@@ -6,6 +6,7 @@ import { FontAwesome } from '@expo/vector-icons';
 import Greeting from './components/Greeting';
 import Travel from './screens/week3/Travel';
 import Resort from './screens/week3/Resort';
+import Health from './screens/week5/Health';
 
 
 export default function App() {
@@ -24,8 +25,8 @@ export default function App() {
     // <Ex11/>
     //<Ex12/>
     //<Travel/>
-    <Resort/>
-
+    // <Resort/>
+      <Health />
 
 
 
