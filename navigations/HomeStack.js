@@ -43,52 +43,52 @@ export default function HomeStack() {
           <Stack.Screen
             name="Ex03"
             component={Ex03}
-            options={{ title: "Exercise 2" }}
+            options={{ title: "Exercise 3" }}
           />
           <Stack.Screen
             name="Ex04"
             component={Ex04}
-            options={{ title: "Exercise 2" }}
+            options={{ title: "Exercise 4" }}
           />
           <Stack.Screen
             name="Ex05"
             component={Ex05}
-            options={{ title: "Exercise 2" }}
+            options={{ title: "Exercise 5" }}
           />
           <Stack.Screen
             name="Ex06"
             component={Ex06}
-            options={{ title: "Exercise 2" }}
+            options={{ title: "Exercise 6" }}
           />
           <Stack.Screen
             name="Ex07"
             component={Ex07}
-            options={{ title: "Exercise 2" }}
+            options={{ title: "Exercise 7" }}
           />
           <Stack.Screen
             name="Ex08"
             component={Ex08}
-            options={{ title: "Exercise 2" }}
+            options={{ title: "Exercise 8" }}
           />
           <Stack.Screen
             name="Ex09"
             component={Ex09}
-            options={{ title: "Exercise 2" }}
+            options={{ title: "Exercise 9" }}
           />
           <Stack.Screen
             name="Ex10"
             component={Ex10}
-            options={{ title: "Exercise 2" }}
+            options={{ title: "Exercise 10" }}
           />
           <Stack.Screen
             name="Ex11"
             component={Ex11}
-            options={{ title: "Exercise 2" }}
+            options={{ title: "Exercise 11" }}
           />
           <Stack.Screen
             name="Ex12"
             component={Ex12}
-            options={{ title: "Exercise 2" }}
+            options={{ title: "Exercise 12" }}
           />
           <Stack.Screen
             name="Travel"
