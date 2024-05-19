@@ -7,11 +7,18 @@ import Greeting from './components/Greeting';
 import Travel from './screens/week3/Travel';
 import Resort from './screens/week3/Resort';
 import Health from './screens/week5/Health';
+import Home from './screens/week6/Home';
+import FlatListExample from './screens/week6/FlatListExample';
+import HomeStack from './navigations/HomeStack';
+import { NavigationContainer } from '@react-navigation/native';
+import BottomTab from './navigations/BottomTab';
+import RootStack from './navigations/RootStack';
+import ChartKitScreen from './screens/week5/ChartKitScreen';
 
 
 export default function App() {
   return (
-    // <Welcome />
+    // <Welcome/>
     // <Ex01/>
     // <Ex02/>
     // <Ex03/>
@@ -23,12 +30,18 @@ export default function App() {
     // <Ex09/>
     // <Ex10/>
     // <Ex11/>
-    //<Ex12/>
-    //<Travel/>
+    // <Ex12/>
+    // <Travel/>
     // <Resort/>
-      <Health />
-
-
+    // <Health/>
+    // <Home />
+    //<FlatListExample/>
+    <NavigationContainer>
+        {/* <HomeStack /> */}
+        {/* <BottomTab /> */}
+        <RootStack />
+        {/* <ChartKitScreen /> */}
+    </NavigationContainer>
 
 
     //<View style={{padding : 20}}>
