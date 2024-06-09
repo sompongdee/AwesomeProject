@@ -14,6 +14,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import BottomTab from './navigations/BottomTab';
 import RootStack from './navigations/RootStack';
 import ChartKitScreen from './screens/week5/ChartKitScreen';
+import { AuthContextProvider } from './hooks/AuthContextProvider';
 
 
 export default function App() {
@@ -36,12 +37,15 @@ export default function App() {
     // <Health/>
     // <Home />
     //<FlatListExample/>
+    <AuthContextProvider>
     <NavigationContainer>
         {/* <HomeStack /> */}
         {/* <BottomTab /> */}
         <RootStack />
         {/* <ChartKitScreen /> */}
     </NavigationContainer>
+    </AuthContextProvider>
+
 
 
     //<View style={{padding : 20}}>
